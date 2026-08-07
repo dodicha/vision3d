@@ -1,3 +1,12 @@
+"use client";
+
+import { Canvas } from "@react-three/fiber";
+import World from "./components/World";
+
 export default function Home() {
-  return <h1>Hello Vision3D</h1>;
+  return (
+    <Canvas>
+      <World />
+    </Canvas>
+  );
 }
