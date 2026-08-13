@@ -5,7 +5,13 @@ import World from "./components/World";
 
 export default function Home() {
   return (
-    <Canvas>
+    <Canvas
+      shadows
+      style={{
+        width: "100vw",
+        height: "100vh",
+      }}
+    >
       <World />
     </Canvas>
   );
